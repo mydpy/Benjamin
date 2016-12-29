@@ -20,7 +20,7 @@ def dat():
             data = pd.read_csv(files)
             global names
             names = list(data.columns.values)
-            print "\nBenjamin: Thanks, user. I've created the following variables for you: 'data' will contain your datafile that we just imported."
+            print "\nBenjamin: Thankyou, user. I've created the following variables for you: 'data' will contain your datafile that we just imported."
             print "\nBenjamin: Also, 'names' will show you the names of each variable in your dataset."
             print "\nBenjamin: You can take a look at your data by typing 'data.head()'. If you want to start aggregating data, use the 'sum_scores()' function."
             return help_me()
